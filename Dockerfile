@@ -1,4 +1,4 @@
-FROM wordpress:php7.1
+FROM wordpress:latest
 
 RUN apt-get update && apt-get install -y libxml2 libxml2-dev
 
